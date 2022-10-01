@@ -1,0 +1,11 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>sakakis-legacy</name>
+    <description>Utility ebuilds for Sakaki's EFI Install Guide</description>
+    <owner>
+      <email>h3ap@h3ap.com</email>
+      <name>h3ap</name>
+    </owner>
+    <source type="git">https://github.com/h3ap/sakakis-legacy.git</source>
+  </repo>
+</repositories>
