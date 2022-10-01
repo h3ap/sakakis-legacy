@@ -2,12 +2,12 @@
 # License: GPL v3+
 # NO WARRANTY
 
-EAPI=6
+EAPI=7
 
 KEYWORDS="~amd64 ~arm ~arm64 ~ppc"
 
 DESCRIPTION="A faster-startup emerge -DuU --with-bdeps=y --keep-going @world"
-BASE_SERVER_URI="https://github.com/sakaki-"
+BASE_SERVER_URI="https://github.com/h3ap"
 HOMEPAGE="${BASE_SERVER_URI}/${PN}"
 SRC_URI="${BASE_SERVER_URI}/${PN}/releases/download/v${PV}/${PN}-v${PV}.tar.gz"
 LICENSE="GPL-3+"

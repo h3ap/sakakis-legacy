@@ -1,14 +1,14 @@
 # ebuild for showem (a simple emerge progress viewer)
-# Copyright (c) 2015 sakaki <sakaki@deciban.com>
+# Original Author Copyright (c) 2015 sakaki <sakaki@deciban.com>
 # License: GPL v2
 # NO WARRANTY
 
-EAPI=5
+EAPI=7
 
 inherit eutils
 
 DESCRIPTION="View output of a parallel emerge from a separate terminal"
-BASE_SERVER_URI="https://github.com/sakaki-"
+BASE_SERVER_URI="https://github.com/h3ap"
 HOMEPAGE="${BASE_SERVER_URI}/${PN}"
 SRC_URI="${BASE_SERVER_URI}/${PN}/releases/download/${PV}/${P}.tar.gz"
 
